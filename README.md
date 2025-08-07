@@ -1,5 +1,5 @@
 
-# Cybersecurity Defense Simulation Environments
+# SCyBorg
 
 A collection of reinforcement learning environments for cybersecurity defense training, featuring three evolutionary versions with different reward philosophies and increasing sophistication in preventing reward hacking.
 
