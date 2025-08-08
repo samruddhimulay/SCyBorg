@@ -3,11 +3,11 @@
 
 A collection of reinforcement learning environments for cybersecurity defense training, featuring three evolutionary versions with different reward philosophies and increasing sophistication in preventing reward hacking.
 
-## 🎯 Overview
+## Overview
 
 These environments simulate a cybersecurity scenario where an RL agent must defend a server and two services against probabilistic attacks. Each version represents an evolution in design philosophy, from traditional positive rewards (V1) to zero-optimal penalty-focused systems (V2, V3).
 
-## 🏗️ Environment Architecture
+## Environment Architecture
 
 ### Core Structure
 
@@ -27,7 +27,7 @@ These environments simulate a cybersecurity scenario where an RL agent must defe
 | **Monitor** | 3 | Detect threats and set detection flag | 2 steps |
 | **Scan** | 4 | Clear detection flag | 2 steps |
 
-## 📋 Version Comparison
+## Version Comparison
 
 | Feature | V1 (Traditional) | V2 (Zero-Optimal) | V3 (Enhanced) |
 | :-- | :-- | :-- | :-- |
@@ -37,7 +37,7 @@ These environments simulate a cybersecurity scenario where an RL agent must defe
 | **Inaction Penalty** | -2 | -1 | -3 |
 | **Primary Focus** | Reward maximization | Penalty minimization | Exploit mitigation |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -76,7 +76,7 @@ print(f"Episode reward: {total_reward}")
 ```
 
 
-## 🔧 Version Details
+## Version Details
 
 ### V1: Traditional Reward-Based
 
@@ -130,7 +130,7 @@ observation_noise = 0.05  # Reduced from 0.10
 ```
 
 
-## 🎮 Environment States
+## Environment States
 
 ### Observation Vector
 
@@ -148,7 +148,7 @@ observation_noise = 0.05  # Reduced from 0.10
 - **Noise Simulation**: Observations corrupted with configurable probability
 
 
-## 📊 Training Considerations
+## Training Considerations
 
 ### Recommended Algorithms
 
@@ -170,7 +170,7 @@ ent_coef = 0.01  # Important for exploration in penalty-heavy environments
 ```
 
 
-## 🔍 Metrics and Evaluation
+## Metrics and Evaluation
 
 ### Key Performance Indicators
 
@@ -191,7 +191,7 @@ V3_good_performance = total_reward > -30
 ```
 
 
-## 🚨 Known Issues and Limitations
+## Known Issues and Limitations
 
 ### Reward Hacking Vulnerabilities
 
@@ -207,39 +207,6 @@ V3_good_performance = total_reward > -30
 - Observation noise requires robust policy architectures
 
 
-## 🤝 Contributing
-
-We welcome contributions to improve these environments! Areas of interest:
-
-- Alternative reward structures
-- Additional attack patterns
-- Performance optimizations
-- Documentation improvements
 
 
-## 📄 License
-
-[Your chosen license here]
-
-## 📚 Citation
-
-If you use these environments in your research, please cite:
-
-```bibtex
-@misc{cybersec_envs_2025,
-    title={Cybersecurity Defense Simulation Environments: V1-V3},
-    year={2025},
-    note={Reinforcement Learning Environments for Cybersecurity Defense Training}
-}
-```
-
-**Note**: These environments are designed for research and educational purposes. They simulate cybersecurity scenarios but should not be used as substitutes for real security systems or training.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: V3_Report.pdf
-
-[^2]: V2_Report.pdf
-
-[^3]: V1_Report.pdf
 
